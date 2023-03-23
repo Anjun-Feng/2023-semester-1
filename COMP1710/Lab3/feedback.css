@@ -1,0 +1,39 @@
+#form {
+    width: 70%;
+    background-color: lightgray;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+
+}
+
+#form input[type="text"], textarea {
+    width: 80%; /* set the width of all form fields to 100% */
+    margin: 10px;
+}
+
+#radio_buttons_of_genders {
+    margin: 10px;
+}
+
+#form label {
+    font-weight: bold; /* set the font weight to bold */
+    font-size: 18px;
+}
+
+#butt_submit {
+    background-color: lightblue;
+}
+
+#butt_submit:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+#butt_clear_all_in_text_area {
+    background-color: lightgreen;
+}
+
+#butt_clear_all_in_text_area:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+}

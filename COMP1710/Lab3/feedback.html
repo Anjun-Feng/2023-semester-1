@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="feedback.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <h1> Feedback Form</h1>
+
+  <form id="form" name='sendmail' action='mailto:u7277205@anu.edu.au' method="post" enctype="text/plain">
+    <label for="yname">Your Name</label><br>
+    <input type="text" id="yname" name="yname" placeholder="Enter your name"><br>
+
+    <label for="yemail">Your Email</label><br>
+    <input type="text" id="yemail" name="yemail" placeholder="Enter your email"><br>
+
+    <label>What is your gender?</label><br>
+
+    <div id="radio_buttons_of_genders">
+      <input type="radio" id="gender_1" name="gender">
+      <label for="gender_1">Male</label>
+      <input type="radio" id="gender_2" name="gender">
+      <label for="gender_2">Male</label>
+      <input type="radio" id="gender_3" name="gender">
+      <label for="gender_3">Female</label>
+      <input type="radio" id="gender_4" name="gender">
+      <label for="gender_4">I prefer not to say</label><br>
+    </div>
+
+    <label for="feedback">Please fill in your feedback</label><br>
+    <textarea id="feedback" name="feedback" rows="8" cols="30" placeholder="Enter your feedback"></textarea><br>
+
+    <input id="butt_submit" type="submit" value="Send it">
+    <label>or</label>
+    <button id="butt_clear_all_in_text_area" onclick="document.getElementById('feedback')
+    .value = '';return false;">Clear</button>
+
+
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+#table {
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: left;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    margin-top: 50px;
+}
+
+#table caption {
+    font-style: italic;
+    color: lightblue;
+    font-size: 13px;
+}
+
+#table td th {
+    padding: 10px;
+    text-align: left;
+}
+
+#table th {
+    background-color: lightblue;
+}
+#table tr:hover {
+    background-color: #f5f5f5; /* set the background color to a light gray when hovering over the row */
+}

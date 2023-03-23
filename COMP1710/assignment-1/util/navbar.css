@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+@font-face {
+  font-family: nice_sugar;
+  src: url("../assets/fonts/nice_sugar.otf");
+}
+
+#header {
+  font-family: nice_sugar;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index: 999;
+  margin-bottom: 100px;
+}
+
+.logo {
+  /* color: rgb(255, 253, 208); */
+  color: #d310dd8b;
+  position: relative;
+  font-size: 35px;
+  font-weight: 300;
+  
+  text-decoration: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+
+#header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header li {
+  
+  font-size: 20px;
+}
+
+#header ul li {
+  position: relative;
+  list-style: none;
+}
+
+#header ul li a {
+  color: #928787;
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+}
